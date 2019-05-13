@@ -19,6 +19,20 @@ Ussage.
 4) If you have GPU installed set no_cuda=False.
 5) set predict_batch_size and train_batch_size as per you need
 
+Inorder to use pretrained model
+1) set MODEL_SAVED_LOAD to true. 
+2) set do_train is false and do_predict is true.
+3) Place the pretrained model in output_dir
+
+Right Now I have trained the model in bin folder.
+Thanks to SQUAD https://rajpurkar.github.io/SQuAD-explorer/ for the datasets.
+
+In ordered to train your own data.
+1) For example train-v1.1.json is kept under datasets folder. Prepare the dataset of the same format and
+2) set MODEL_SAVED_LOAD to false. 
+3) set do_train is True and do_predict is False
+
+
 
 
 
