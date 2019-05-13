@@ -32,6 +32,14 @@ In ordered to train your own data.
 2) set MODEL_SAVED_LOAD to false. 
 3) set do_train is True and do_predict is False
 
+Once the model is trained, trained .bin file will be stored in output_dir.
+
+Prediction.
+1) set MODEL_SAVED_LOAD to true. 
+2) set do_train is false and do_predict is true.
+
+Check the prediction accuracy and predictions.json is under outdirectory.
+
 
 
 
